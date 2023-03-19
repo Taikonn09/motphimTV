@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta class="nav-item" charset="UTF-8">
+    <meta class="nav-item" http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta class="nav-item" name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Phim Hay | Phim Mới | Phim HD VietSub | MotPhimTV</title>
+</head>
+
+<body>
+    <article id="wrapper">
+        <header id="header">
+            <nav id="nav" class="container-nav">
+                <div class="nav-top">
+                    <a class="nav-item" href="trangchu.html">
+                        <img class="nav-img" src="images/logo.png" alt="logo">
+                    </a>
+                    <div class="nav-search">
+                        <form action="">
+                            <input class="search-text" type="text" placeholder="Nội dung cần tìm...">
+                            <button class="search-btn">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </form>
+
+                    </div>
+                    <ul class="nav-right">
+                        <li><a href="dangnhap.html">Đăng nhập</a></li>
+                        <li><a href="dangky.html">Đăng ký</a></li>
+                        <li><a onclick="bookMark()">Bookmark</a></li>
+                    </ul>
+                </div>
+
+                <ul id="nav--menu" class="nav-bottom">
+                    <li>
+                        <a class="nav-item" href="trangchu.html">Trang chủ</a>
+                    </li>
+                    <li class="nav-1">
+                        <a class="nav-item" href="">Thể loại</a>
+
+                        <!-- menu cấp 2 -->
+                        <ul class="nav-sub">
+                            <li class="nav-sub-2">
+                                <a href="">Võ Thuật - Tiên Hiệp</a>
+                            </li>
+
+                            <li class="nav-sub-2">
+                                <a href="">Cổ Trang - Thần Thoại</a>
+                            </li>
+
+                            <li class="nav-sub-2">
+                                <a href="">Khoa Học - Viễn Tưởng</a>
+                            </li>
+
+                            <li class="nav-sub-2">
+                                <a href="">Phiêu Lưu - Hành Động</a>
+                            </li>
+
+                            <li class="nav-sub-2">
+                                <a href="">Tâm Lý - Tình Cảm</a>
+                            </li>
+
+                            <li class="nav-sub-2">
+                                <a href="">Bí Ẩn - Siêu Nhiên</a>
+                            </li>
+
+                            <li class="nav-sub-2">
+                                <a href="">Thể Thao - Âm Nhạc</a>
+                            </li>
+
+                            <li class="nav-sub-2">
+                                <a href="">Văn Hóa - Tâm Linh</a>
+                            </li>
+
+                            <li class="nav-sub-2">
+                                <a href="">Phim Hoạt Hình</a>
+                            </li>
+
+                            <li class="nav-sub-2">
+                                <a href="">Kinh Dị - Ma</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-1">
+                        <a class="nav-item" href="">Quốc gia</a>
+                        <ul class="nav-sub">
+                            <li class="nav-sub-2">
+                                <a href="">Việt Nam</a>
+                            </li>
+
+                            <li class="nav-sub-2">
+                                <a href="">Trung Quốc</a>
+                            </li>
+
+                            <li class="nav-sub-2">
+                                <a href="">Hàn Quốc</a>
+                            </li>
+
+                            <li class="nav-sub-2">
+                                <a href="">Thái Lan</a>
+                            </li>
+
+                            <li class="nav-sub-2">
+                                <a href="">Âu - Mỹ</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-1">
+                        <a class="nav-item" href="">Phim mới</a>
+                        <ul class="nav-sub">
+                            <li class="nav-sub-2">
+                                <a href="">Phim 2022</a>
+                            </li>
+                            <li class="nav-sub-2">
+                                <a href="">Phim 2021</a>
+                            </li>
+                            <li class="nav-sub-2">
+                                <a href="">Phim 2020</a>
+                            </li>
+                            <li class="nav-sub-2">
+                                <a href="">Phim 2019</a>
+                            </li>
+                            <li class="nav-sub-2">
+                                <a href="">Phim 2018</a>
+                            </li>
+                            <li class="nav-sub-2">
+                                <a href="">Phim 2017</a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-1">
+                        <a class="nav-item" href="">Phim bộ</a>
+                    </li>
+                    <li class="nav-1">
+                        <a class="nav-item" href="">Phim lẻ</a>
+                    </li>
+                    <li class="nav-1">
+                        <a class="nav-item" href="">Phim thuyết minh</a>
+                    </li>
+                    <li class="nav-1">
+                        <a class="nav-item" href="">Phim chiếu rạp</a>
+                    </li>
+                    <li class="nav-1">
+                        <a class="nav-item" href="">TV show</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- main -->
+
+        <main id="main">
+            <article class="main-content container-main">
+                <section id="hot-movie">
+                    <h2 class="main-content--heading">
+                        Phim Hot
+                    </h2>
+
+                    <ul id="products">
+                        <li class="product-item">
+                            <a href="">
+                                <!-- <p class="product-chap">Tập 1 Vietsub</p> -->
+
+                                <img src="images/trangchu/chiecbatlua.jpg" alt="movie1" class="product-img">
+                                <p class="product-name">
+                                    Chiếc Bật Lửa Và Váy Công Chúa
+                                </p>
+                            </a>
+                        </li>
+                        <li class="product-item">
+                            <a href="">
+                                <!-- <p class="product-chap">Tập 1 Vietsub</p> -->
+                                <img src="images/trangchu/thuonglanquyet.jpg" alt="movie2" class="product-img">
+                                <p class="product-name">
+                                    Thương Lan Quyết
+                                </p>
+                            </a>
+                        </li>
+                        <li class="product-item">
+                            <a href="">
+                                <!-- <p class="product-chap">Tập 1 Vietsub</p> -->
+                                <img src="images/trangchu/tramvun.png" alt="movie3" class="product-img">
+                                <p class="product-name">
+                                    Trầm Vụn Hương Phai
+                                </p>
+                            </a>
+                        </li>
+                        <li class="product-item">
+                            <a href="">
+                                <!-- <p class="product-chap">Tập 1 Vietsub</p> -->
+                                <img src="images/trangchu/tinhhan.png" alt="movie4" class="product-img">
+                                <p class="product-name">
+                                    Tinh Hán Xán Lạn
+                                </p>
+                            </a>
+                        </li>
+                        <li class="product-item">
+                            <a href="">
+                                <!-- <p class="product-chap">Tập 1 Vietsub</p> -->
+                                <img src="images/trangchu/thathi.png" alt="movie5" class="product-img">
+                                <p class="product-name">
+                                    Thả Thí Thiên Hạ
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+
+                <section id="new-movie" class="container-main">
+                    <div class="left-new-movie">
+                        <h2 class="new-movie-heading-left">
+                            Phim mới cập nhật
+                        </h2>
+
+                        <ul id="products-new-movie-left">
+                            <li class="product-item-new-movie-left">
+                                <a href="">
+                                    <!-- <p class="product-chap">Tập 1 Vietsub</p> -->
+
+                                    <img src="images/trangchu/ngugiaoky.png" alt="movie1" class="product-img-new-movie-left">
+                                    <p class="product-name-new-movie-left">
+                                        Ngự Giao Ký
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="product-item-new-movie-left">
+                                <a href="">
+                                    <!-- <p class="product-chap">Tập 1 Vietsub</p> -->
+
+                                    <img src="images/trangchu/monghoaluc.png" alt="movie2" class="product-img-new-movie-left">
+                                    <p class="product-name-new-movie-left">
+                                        Mộng Hoa Lục
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="product-item-new-movie-left">
+                                <a href="">
+                                    <!-- <p class="product-chap">Tập 1 Vietsub</p> -->
+
+                                    <img src="images/trangchu/anhhung.png" alt="movie3" class="product-img-new-movie-left">
+                                    <p class="product-name-new-movie-left">
+                                        Luận Ai Xứng Danh Anh Hùng
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="product-item-new-movie-left">
+                                <a href="">
+                                    <!-- <p class="product-chap">Tập 1 Vietsub</p> -->
+
+                                    <img src="images/trangchu/xuankhue.png" alt="movie4" class="product-img-new-movie-left">
+                                    <p class="product-name-new-movie-left">
+                                        Xuân Khuê Mộng Lý Nhân
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="product-item-new-movie-left">
+                                <a href="">
+                                    <!-- <p class="product-chap">Tập 1 Vietsub</p> -->
+
+                                    <img src="images/trangchu/anlac.png" alt="movie5" class="product-img-new-movie-left">
+                                    <p class="product-name-new-movie-left">
+                                        An Lạc Truyện
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="product-item-new-movie-left">
+                                <a href="">
+                                    <!-- <p class="product-chap">Tập 1 Vietsub</p> -->
+
+                                    <img src="images/trangchu/trongtu.png" alt="movie6" class="product-img-new-movie-left">
+                                    <p class="product-name-new-movie-left">
+                                        Trọng Tử
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="product-item-new-movie-left">
+                                <a href="">
+                                    <!-- <p class="product-chap">Tập 1 Vietsub</p> -->
+
+                                    <img src="images/trangchu/monamchi.png" alt="movie7" class="product-img-new-movie-left">
+                                    <p class="product-name-new-movie-left">
+                                        Mộ Nam Chi
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="product-item-new-movie-left">
+                                <a href="">
+                                    <!-- <p class="product-chap">Tập 1 Vietsub</p> -->
+
+                                    <img src="images/trangchu/kinhsongthanh.png" alt="movie8" class="product-img-new-movie-left">
+                                    <p class="product-name-new-movie-left">
+                                        Kính Song Thành
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="product-item-new-movie-left">
+                                <a href="">
+                                    <!-- <p class="product-chap">Tập 1 Vietsub</p> -->
+
+                                    <img src="images/trangchu/nhatdatannuong.png" alt="movie9" class="product-img-new-movie-left">
+                                    <p class="product-name-new-movie-left">
+                                        Nhất Dạ Tân Nương 2
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="product-item-new-movie-left">
+                                <a href="">
+                                    <!-- <p class="product-chap">Tập 1 Vietsub</p> -->
+
+                                    <img src="images/trangchu/phusinhan.png" alt="movie10" class="product-img-new-movie-left">
+                                    <p class="product-name-new-movie-left">
+                                        Phù Sinh Ấn
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="product-item-new-movie-left">
+                                <a href="">
+                                    <!-- <p class="product-chap">Tập 1 Vietsub</p> -->
+
+                                    <img src="images/trangchu/tuyettrunghandaohanh.png" alt="movie11" class="product-img-new-movie-left">
+                                    <p class="product-name-new-movie-left">
+                                        Tuyết Trung Hãn Đao Hành
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="product-item-new-movie-left">
+                                <a href="">
+                                    <!-- <p class="product-chap">Tập 1 Vietsub</p> -->
+
+                                    <img src="images/trangchu/truongcahanh.png" alt="movie12" class="product-img-new-movie-left">
+                                    <p class="product-name-new-movie-left">
+                                        Trường Ca Hành
+                                    </p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="right-new-movie">
+                        <ul id="products-new-movie-right">
+                            <h2 class="new-movie-heading-right">
+                                Phim sắp chiếu
+                            </h2>
+                            <li class="product-item-new-movie-right">
+                                <a href="">
+                                    <!-- <p class="product-chap">Tập 1 Vietsub</p> -->
+                                    <div class="content">
+                                        <img src="images/trangchu/tuyetunglinhchu.png" alt="movie1" class="content-left">
+                                        <div class="content-right">
+                                            <p class="heading-name-right">
+                                                Tuyết Ưng Lĩnh Chủ
+                                            </p>
+                                            <p class="year-content-right">2022</p>
+                                            <span class="star-name-right">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="product-item-new-movie-right">
+                                <a href="">
+                                    <!-- <p class="product-chap">Tập 1 Vietsub</p> -->
+                                    <div class="content">
+                                        <img src="images/trangchu/phudoduyen.png" alt="movie2" class="content-left">
+                                        <div class="content-right">
+                                            <p class="heading-name-right">
+                                                Phù Đồ Duyên
+                                            </p>
+                                            <p class="year-content-right">2022</p>
+                                            <span class="star-name-right">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="product-item-new-movie-right">
+                                <a href="">
+                                    <!-- <p class="product-chap">Tập 1 Vietsub</p> -->
+                                    <div class="content">
+                                        <img src="images/trangchu/ngoccotdao.png" alt="movie3" class="content-left">
+                                        <div class="content-right">
+                                            <p class="heading-name-right">
+                                                Ngọc Cốt Dao
+                                            </p>
+                                            <p class="year-content-right">2022</p>
+                                            <span class="star-name-right">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i style="color: #fff;" class="fa-solid fa-star"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="product-item-new-movie-right">
+                                <a href="">
+                                    <!-- <p class="product-chap">Tập 1 Vietsub</p> -->
+                                    <div class="content">
+                                        <img src="images/trangchu/nguyecahanh.png" alt="movie4" class="content-left">
+                                        <div class="content-right">
+                                            <p class="heading-name-right">
+                                                Nguyệt Ca Hành
+                                            </p>
+                                            <p class="year-content-right">2022</p>
+                                            <span class="star-name-right">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i style="color: #fff;" class="fa-solid fa-star"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <h2 class="new-movie-heading-right" style="text-transform: uppercase">
+                                Trending
+                            </h2>
+
+                            <div class="trendings">
+                                <div class="trend-item">
+                                    <p class="stt">1</p>
+                                    <div class="trend">
+                                        <a href="#" class="trend-name">Cậu Út Nhà Tài Phiệt</a>
+                                        <p class="trend-poeople"><span>115 lượt quan tâm</span></p>
+                                    </div>
+                                </div>
+                                <div class="trend-item">
+                                    <p class="stt">2</p>
+                                    <div class="trend">
+                                        <a href="#" class="trend-name">Định Luật 80/20 Của Tình Yêu</a>
+                                        <p class="trend-poeople"><span>83 lượt quan tâm</span></p>
+                                    </div>
+                                </div>
+                                <div class="trend-item">
+                                    <p class="stt">3</p>
+                                    <div class="trend">
+                                        <a href="#" class="trend-name">Khanh Khanh Nhật Trường</a>
+                                        <p class="trend-poeople"><span>42 lượt quan tâm</span></p>
+                                    </div>
+                                </div>
+                                <div class="trend-item">
+                                    <p class="stt">4</p>
+                                    <div class="trend">
+                                        <a href="#" class="trend-name">Lần Đầu Yêu Anh</a>
+                                        <p class="trend-poeople"><span>35 lượt quan tâm</span></p>
+                                    </div>
+                                </div>
+                                <div class="trend-item">
+                                    <p class="stt">5</p>
+                                    <div class="trend">
+                                        <a href="#" class="trend-name">Gió Thổi Bán Hạ</a>
+                                        <p class="trend-poeople"><span>21 lượt quan tâm</span></p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </ul>
+                    </div>
+                </section>
+
+
+                <section id="new-anime">
+                    <h2 class="new-anime-heading">Được yêu thích</h2>
+
+                    <div class="new-anime-movie">
+                        <ul id="products-new-anime">
+                            <li class="product-item-new-anime">
+                                <a href="">
+                                    <!-- <p class="product-chap">Tập 1 Vietsub</p> -->
+
+                                    <img src="images/trangchu/chuckhanhhao.png" alt="movie1" class="product-img-new-anime">
+                                    <p class="product-name-new-anime">
+                                        Chúc Khanh Hảo
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="product-item-new-anime">
+                                <a href="">
+                                    <!-- <p class="product-chap">Tập 1 Vietsub</p> -->
+
+                                    <img src="images/trangchu/thiencoquyettran.png" alt="movie2" class="product-img-new-anime">
+                                    <p class="product-name-new-anime">
+                                        Thiên Cổ Quyết Trần
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="product-item-new-anime">
+                                <a href="">
+                                    <!-- <p class="product-chap">Tập 1 Vietsub</p> -->
+
+                                    <img src="images/trangchu/nhuco.png" alt="movie3" class="product-img-new-anime">
+                                    <p class="product-name-new-anime">
+                                        Trường An Như Cố
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="product-item-new-anime">
+                                <a href="">
+                                    <!-- <p class="product-chap">Tập 1 Vietsub</p> -->
+
+                                    <img src="images/trangchu/camychiha.png" alt="movie4" class="product-img-new-anime">
+                                    <p class="product-name-new-anime">
+                                        Cẩm Y Chi Hạ
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="product-item-new-anime">
+                                <a href="">
+                                    <!-- <p class="product-chap">Tập 1 Vietsub</p> -->
+
+                                    <img src="images/trangchu/chamthuongthu.png" alt="movie5" class="product-img-new-anime">
+                                    <p class="product-name-new-anime">
+                                        Tam Sinh Tam Thế - Chẩm Thượng Thư
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="product-item-new-anime">
+                                <a href="">
+                                    <!-- <p class="product-chap">Tập 1 Vietsub</p> -->
+
+                                    <img src="images/trangchu/thaplydaohoa.png" alt="movie6" class="product-img-new-anime">
+                                    <p class="product-name-new-anime">
+                                        Tam Sinh Tam Thế - Thập Lý Đào Hoa
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="product-item-new-anime">
+                                <a href="">
+                                    <!-- <p class="product-chap">Tập 1 Vietsub</p> -->
+
+                                    <img src="images/trangchu/yeuemtucainhindautien.png" alt="movie7" class="product-img-new-anime">
+                                    <p class="product-name-new-anime">
+                                        Yêu Em Từ Cái Nhìn Đầu Tiên
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="product-item-new-anime">
+                                <a href="">
+                                    <!-- <p class="product-chap">Tập 1 Vietsub</p> -->
+
+                                    <img src="images/trangchu/ngolong.png" alt="movie8" class="product-img-new-anime">
+                                    <p class="product-name-new-anime">
+                                        Ngộ Long
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="product-item-new-anime">
+                                <a href="">
+                                    <!-- <p class="product-chap">Tập 1 Vietsub</p> -->
+
+                                    <img src="images/trangchu/tranthienthien.png" alt="movie9" class="product-img-new-anime">
+                                    <p class="product-name-new-anime">
+                                        Trần Thiên Thiên Ngày Ấy - Bây Giờ
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="product-item-new-anime">
+                                <a href="">
+                                    <!-- <p class="product-chap">Tập 1 Vietsub</p> -->
+
+                                    <img src="images/trangchu/nhuyvuongphi.png" alt="movie10" class="product-img-new-anime">
+                                    <p class="product-name-new-anime">
+                                        Như Ý Vương Phi
+                                    </p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </article>
+
+
+        </main>
+
+        <!-- footer -->
+
+        <footer id="footer">
+            <div class="ft-content container-nav">
+                <div class=" ft-left">
+                    <a href="trangchu.html"><img src="images/logo.png" alt=""></a>
+                </div>
+
+                <div class="ft-mid">
+                    <label>
+                        <h3 style="margin-bottom: 10px">MotPhimTV </h3>
+                    </label>
+
+                    <label>
+                        <p>Miễn phí phim chất lượng cao với phụ đề tiếng việt: Thuyết minh - Vietsub.</p>
+                    </label>
+
+                    <label>
+                        <p style="margin-top: 10px;">
+                            Support: <a style=" color: #fff; text-decoration: none" href="mailto: taikonn09@gmail.com">Taikonn09@gmail.com</a>
+                        </p>
+                    </label>
+                    
+                </div>
+
+                <div class="ft-right">
+                    <h3>Follow Us</h3>
+                    <p class="mxh-page">
+                        <a href="#"><i class="fa-brands fa-google mxh-gg"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook-f mxh-fb"></i></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter mxh-tw"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram mxh-ins"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube mxh-ytb"></i></a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="ft-bottom container-nav">
+                <p class="heading-ft-bottom">
+                    CoppyRight <span> &copy; </span> 2022 MotPhimTV.info by TaiKonn
+                </p>
+            </div>
+        </footer>
+    </article>
+</body>
+
+<script>
+    function bookMark(){
+        alert('Chức năng này đang cập nhật')
+    }
+</script>
+</html>
